@@ -1,0 +1,16 @@
+<?php
+
+namespace App;
+
+class Sprocket
+{
+    private $bar {
+        get {
+            return $this->bar . " got";
+        }
+
+        set {
+            $this->bar = strtoupper($value);
+        }
+    };
+}
